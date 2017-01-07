@@ -1,0 +1,11 @@
+facts could include:
+	location
+	out
+	stressSort(   sort/TheVoxelsNumber     0<=stressSort<=1)
+	stressIsLargerThanAllowable
+	stressIsLowerOrEqualsAllowable
+	isInside
+	isBoundary
+	isOutside
+	octreeDeep
+	//and so on
