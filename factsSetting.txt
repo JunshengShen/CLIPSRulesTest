@@ -1,11 +1,19 @@
 facts could include:
-	location
-	out
-	stressSort(   sort/TheVoxelsNumber     0<=stressSort<=1)
+	locationLargerOrEqualsThanNeighbours
+	entity
+	empty
 	stressIsLargerThanAllowable
 	stressIsLowerOrEqualsAllowable
 	isInside
 	isBoundary
 	isOutside
-	octreeDeep
+	octreeDeep ?deep
 	//and so on
+	
+	
+whild (run) it may have facts:
+	must remain
+	could delete
+	should remain
+	must delete
+	//this logic should be worte carefully
